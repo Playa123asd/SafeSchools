@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Slope Game</title>
+    <style>
+        body { margin: 0; padding: 0; background: #000; }
+        #gameContainer { width: 100%; height: 100vh; }
+    </style>
+</head>
+<body>
+    <div id="gameContainer">
+        <iframe src="https://ubg44.github.io/Slope/" 
+                width="100%" 
+                height="100%" 
+                frameborder="0"
+                allowfullscreen>
+        </iframe>
+    </div>
+    <a href="../index.html" style="position: fixed; top: 10px; left: 10px; color: white; text-decoration: none;">← Back</a>
+</body>
+</html>
