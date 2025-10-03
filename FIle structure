@@ -1,0 +1,17 @@
+your-repo/
+├── index.html
+├── README.md
+└── games/
+    ├── slope/
+    │   ├── index.html
+    │   ├── game.js
+    │   └── assets/
+    ├── tetris/
+    │   ├── index.html
+    │   └── tetris.js
+    ├── 2048/
+    │   ├── index.html
+    │   └── game.js
+    └── pacman/
+        ├── index.html
+        └── pacman.js
