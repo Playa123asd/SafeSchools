@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unblocked Games Hub</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .games-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 30px;
+        }
+        .game-card {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+        }
+        .game-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            background: #007bff;
+            color: white;
+        }
+        .game-icon {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎮 Unblocked Games Hub</h1>
+            <p>Educational games for school breaks</p>
+        </div>
+        
+        <div class="games-grid">
+            <a href="games/slope/index.html" class="game-card">
+                <div class="game-icon">🎢</div>
+                <h3>Slope</h3>
+                <p>3D rolling ball game</p>
+            </a>
+            
+            <a href="games/tetris/index.html" class="game-card">
+                <div class="game-icon">🧩</div>
+                <h3>Tetris</h3>
+                <p>Classic puzzle game</p>
+            </a>
+            
+            <a href="games/2048/index.html" class="game-card">
+                <div class="game-icon">🔢</div>
+                <h3>2048</h3>
+                <p>Number puzzle game</p>
+            </a>
+            
+            <a href="games/minecraft/index.html" class="game-card">
+                <div class="game-icon">⛏️</div>
+                <h3>Minecraft Classic</h3>
+                <p>Browser version</p>
+            </a>
+            
+            <a href="games/geometry-dash/index.html" class="game-card">
+                <div class="game-icon">⭐</div>
+                <h3>Geometry Dash</h3>
+                <p>Rhythm platformer</p>
+            </a>
+            
+            <a href="games/pacman/index.html" class="game-card">
+                <div class="game-icon">👻</div>
+                <h3>Pac-Man</h3>
+                <p>Classic arcade game</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
